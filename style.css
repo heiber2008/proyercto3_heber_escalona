@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url('https://example.com/tu-imagen-de-fondo.jpg'); /* Cambia esta URL por la de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    color: #003c8f; /* Texto azul oscuro */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente */
+    justify-content: center; /* Centrar verticalmente */
+    height: 100vh; /* Altura completa de la ventana */
+}
+h1 {
+    text-align: center;
+    color: #ffffff; /* Color blanco para el título */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para el texto */
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+#clima-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centrar las tarjetas */
+    margin-top: 20px;
+}
+.card {
+    background-color: rgba(0, 123, 255, 0.7); /* Fondo azul con opacidad */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para el contenedor */
+    margin: 10px;
+    padding: 20px;
+    width: 200px; /* Ancho fijo para las tarjetas */
+    text-align: center;
+    color: white; /* Texto blanco para las tarjetas */
+}
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.icono {
+    width: 50px; /* Tamaño del icono */
+    height: 50px;
+}
